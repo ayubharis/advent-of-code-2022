@@ -1,6 +1,7 @@
 rounds = []
 chr_to_rps = {x : r for (x,r) in zip("AXBYCZ", "RRPPSS")}
 score = {'R' : 1, 'P' : 2, 'S' : 3}
+
 def win(opp, you):
     game = ['R', 'P', 'S']
     if you == opp:
